@@ -1,0 +1,30 @@
+/*
+CTC Separate Stylesheet
+Updated: 2022-01-15 02:48:01
+Theme Name: Vantage Child
+Theme URI: https://siteorigin.com/theme/vantage/
+Template: vantage
+Author: SiteOrigin
+Author URI: https://siteorigin.com/
+Description: Vantage is a flexible multipurpose theme. Its strength lies in its tight integration with some powerful plugins like Page Builder for responsive page layouts, Smart Slider 3 for big beautiful sliders and WooCommerce to help you sell online. Vantage is fully responsive and retina ready. Use it to start a business site, portfolio or online store. We offer free support on our forum (https://siteorigin.com/thread/).
+Tags: two-columns,left-sidebar,right-sidebar,grid-layout,custom-background,custom-colors,custom-menu,custom-logo,featured-images,footer-widgets,full-width-template,post-formats,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,blog,e-commerce
+Version: 1.19.5.1642214881
+*/
+
+#masthead.masthead-logo-in-menu .logo > img {
+    max-height: 60px !important;
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+}
+
+article.post .entry-header h1.entry-title, article.page .entry-header h1.entry-title {
+    color: #3b3b3b !important;
+    font-size: 30px !important;
+    font-weight: 500 !important;
+    line-height: 1.35em !important;
+}
+
+article.post .entry-header .entry-thumbnail img, article.page .entry-header .entry-thumbnail img {
+        display: none !important;
+}
