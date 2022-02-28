@@ -9,7 +9,8 @@
 /.idea
 /wp-content/updraft
 /wp-content/backups-dup-lite
-
+/wp-config.php
+/.htaccess
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
